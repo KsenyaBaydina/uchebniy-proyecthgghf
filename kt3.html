@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1P</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: normal;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 40px 30px;
+      border-radius: 0 30px 0 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .card h2 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    .card p {
+      font-size: 15px;
+      line-height: 1.5;
+      color: #555;
+    }
+
+    .footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+      h1 {
+        font-size: 28px;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>We provide a wide range of creative services</h1>
+
+    <div class="grid">
+      
+      <div class="card">
+        <h2>Hight Quality</h2>
+        <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum.</p>
+      </div>
+
+      <div class="card">
+        <h2>Creative Team</h2>
+        <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum.</p>
+      </div>
+
+      <div class="card">
+        <h2>Amazing Results</h2>
+        <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum.</p>
+      </div>
+
+      <div class="card">
+        <h2>Best Pricing</h2>
+        <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum.</p>
+      </div>
+
+      <div class="card">
+        <h2>Innovations</h2>
+        <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum.</p>
+      </div>
+
+      <div class="card">
+        <h2>24/7 Support</h2>
+        <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer">
+    Website Templates created with Website Builder Software.
+  </div>
+
+</body>
+</html>
